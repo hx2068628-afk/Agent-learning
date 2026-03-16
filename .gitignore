@@ -1,0 +1,10 @@
+# 编辑器配置
+.idea/
+*.iml
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 环境变量密钥
+.env
