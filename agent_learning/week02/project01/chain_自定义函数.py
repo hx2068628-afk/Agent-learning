@@ -24,5 +24,5 @@ second_prompt=PromptTemplate.from_template(
 my_func=RunnableLambda(lambda  ai_meg:{"name":ai_meg.content})
 
 chain = first_prompt | llm | my_func | second_prompt | llm |strOutput
-for i in chain.stream({"name":"肖世峰","gender":"男"}):
+for i in chain.stream({"name":"张三","gender":"女"}):
     print(i,end="",flush=True)
