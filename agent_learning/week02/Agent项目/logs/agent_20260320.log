@@ -1,0 +1,4 @@
+2026-03-20 20:47:49,007 -agent  -DEBUG - logger_handler.py:45 debug message
+2026-03-20 20:47:49,007 -agent  -INFO - logger_handler.py:46 info message
+2026-03-20 20:47:49,007 -agent  -WARNING - logger_handler.py:47 warning message
+2026-03-20 20:47:49,007 -agent  -ERROR - logger_handler.py:48 error message

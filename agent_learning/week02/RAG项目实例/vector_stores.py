@@ -2,7 +2,7 @@ from langchain_chroma import Chroma
 from langchain_community.embeddings import DashScopeEmbeddings
 
 import config_data as config
-from agent_learning.env_utils import DASHBOARD_API_KEY
+from env_utils import DASHBOARD_API_KEY
 
 
 class VectorStoreService(object):

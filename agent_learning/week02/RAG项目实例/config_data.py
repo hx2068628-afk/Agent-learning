@@ -11,4 +11,7 @@ chunk_overlap=100
 separators=["\n","\n\n",".","!","。","！","？","?",""]
 max_split_char_number=1000
 
-similarity_threshold=2
+similarity_threshold=1
+
+embedding_model_name="text-embedding-v4"
+chat_model_name="qwen-max"
