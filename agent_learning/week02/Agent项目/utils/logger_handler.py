@@ -1,8 +1,10 @@
 import datetime
 import logging
 import os
+import sys
 
-from agent_learning.week02.Agent项目.utils.path_tool import get_abs_path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from path_tool import get_abs_path
 
 LOG_ROOT = get_abs_path("logs")
 
